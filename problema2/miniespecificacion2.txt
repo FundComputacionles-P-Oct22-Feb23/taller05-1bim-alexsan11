@@ -1,0 +1,21 @@
+problema 2:
+
+1 Inicio
+2 costoPedido, d [0-n]
+3 cantidaPedido, d[0-n]
+4 precioUnitario, d [0-n]
+5 descuento <-- 0.15
+6 <<"ingrese cantidad del pedido"
+7 >> cantidadPedido
+8 <<"Ingrese precio unitario del articulo"
+9 >> precioUnitaro
+10 costoPedido <-- cantidadPediudo * precioUnitario 
+11 Si cantidadPedido > 50 entoces
+12 valorDescuento <-- costoPedido * descuento
+13 costoPedido <-- costoPedido - valor descuento
+14 Fin si
+15 <<"El costo del pedido es:" + costoPedido 
+15 Fin  
+
+
+	

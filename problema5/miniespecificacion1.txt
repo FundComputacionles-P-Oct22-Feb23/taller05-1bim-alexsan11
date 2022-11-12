@@ -1,0 +1,48 @@
+problema5
+Algoritmo:
+1 Inicio 
+2 Se pide el número de litros consumidos en el mes
+3 Se pide el costo de cada litro
+4 Se multiplica el número de litros consumidos en el mes por el costo de cada litro
+5 El resultado de la operación anterior es el valor mensual a pagar del agua
+6 Se pide el número de minutos gastados en el mes
+7 Se pide el costo de cada minuto en el mes
+8 Se multiplica el número de minutos gastados en el mes por el costo de cada minuto
+9 El resultado de la operación anterior es el valor mensual a pagar de la luz
+10 Se suma el valor mensual a pagar del agua mas el valor mensual a pagar de la luz
+11 Se pide la edad al usuario
+12 Si la edad pedida es menor a 20 años al resultado de la operacion anterior se le hace el respectivo descuento del y se muestra en pantalla
+13 Si la edad pedida es mayor o igual a 20 años al resultado de la operacion anterior no se le hace descuento y se muestra en pantalla
+14 Fin
+MiniEspecificación:
+1 Inicio
+2 numeroLitros, d[0-n]
+3 costoLitro, d[0-n]
+4 aguaMensual, d[0-n]
+5 mesMinutos, d[0-n]
+6 costo_minutos, d[o-n]
+7 luzMensual, d[0-n]
+8 edad, i[0-n]
+10 descuento, d[o-n]
+11 totalMensual, d[o-n]
+12 <<"Ingrese el número de litros consumidos del mes"
+13 >>numeroLitros
+14 <<"Ingrese el costo de cada litro"
+15 >>costoLitro
+16 <<"Ingrese el número de minutos gastados del mes"
+17 >>mesMinutos
+18 <<"Ingrese el costo de cada minuto del mes"
+19 >>costo_minutos
+20 <<"Ingrese la edad"
+21 >>edad
+22 aguaMensual <-- numeroLitros * costoLitro
+23 luzMensual <-- mesMinutos * costo_minutos
+24 Si edad < 20 entonces
+25 descuento <-- aguaMensual + luzMensual * 0.20
+26 totalmensual <-- aguaMensual + luzMensual - descuento
+27 De lo contrario
+28 Si edad > 20 entonces
+29 totalmensual <--aguaMensual + luzMensual
+30 Fin Si
+31 <<"El valor total a pagar mensual es:" + totalmensual
+32 Fin

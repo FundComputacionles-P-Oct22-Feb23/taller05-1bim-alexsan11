@@ -1,0 +1,12 @@
+problema 3
+1 Inicio
+2 temperaturaCentigrados, d [0,n]
+3 termperaturaFarenheit, d [0-n]
+4 temperaturaKelvin, d [0-n]
+5 <<" Ingrese la temepratura en centigrados"
+6 >> temperaturaCentigrados
+7 Si temperaturaCentigrados < 100 or temperatiraCentigrados == 100
+8 termperaturaFarenheit <-- 9 / 5 * temperaturaCentigrados + 32
+9 temperaturaKelvin <-- temperaturaCentigrados + 273.15
+10 fin si
+11 fin

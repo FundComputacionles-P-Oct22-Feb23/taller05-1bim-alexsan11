@@ -1,0 +1,21 @@
+problema1:
+
+1 inicio
+2 edad i,[0-n]
+3 costoKilovatio, d[0-n]
+4 kilovatio_numero, d[0-n]
+5 costoPlanilla, d[0-n]
+6 descuento <-- 10
+7 <<" Ingrese el costo kilovatio/hora"
+8 >> CostoKilovatio
+9 <<" ingrese el numero consumido de kilovatios por el mes"
+10 >>kilovatio_numero
+11 << "ingrese la edad del usuario"
+12 >> edad
+13 costoPlanilla <-- costokilovatio * kilovatio_numero
+14 Si edad > 64 entoces
+15 valorDescuento <-- costoPlanilla * descuento
+16 costoPlanilla <-- costoPlanilla - valorDescuento
+17 fin si
+18 <<"El valor a cancelar es:" + costoPlanilla
+19 fin
